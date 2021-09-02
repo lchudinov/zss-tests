@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "ts-mocha -r config.js src/**/*.spec.ts"
+    "test": "ts-mocha -r config.js src/**/*.spec.ts",
+    "test:user-info": "ts-mocha -r config.js src/**/user-info.spec.ts"
   },
   "keywords": [],
   "author": "",

@@ -21,7 +21,7 @@ const password = process.env['ZSS_PASSWORD'];
 describe('Memory API', function () {
   this.timeout(0);
   this.bail(true);
-  const n = 100;
+  const n = 10;
 
   before('login', async function () {
     req = request(url);
