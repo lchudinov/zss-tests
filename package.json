@@ -6,7 +6,9 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "test": "ts-mocha -r config.js src/**/*.spec.ts",
-    "test:user-info": "ts-mocha -r config.js src/**/user-info.spec.ts"
+    "test:user-info": "ts-mocha -r config.js src/**/user-info.spec.ts",
+    "test:dataset-metadata": "ts-mocha -r config.js src/**/dataset-metadata.spec.ts",
+    "test:dataset-contents": "ts-mocha -r config.js src/**/dataset-contents.spec.ts"
   },
   "keywords": [],
   "author": "",
